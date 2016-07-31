@@ -1,0 +1,12 @@
+@mixin padding-style($margin) {
+  padding-top: $margin;
+  padding-bottom: $margin;
+}
+
+
+section {
+@include padding-style(10px);
+  .thirdSection{
+    @include padding-style(50px);
+  }
+}

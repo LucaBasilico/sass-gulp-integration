@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+section {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  section .thirdSection {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+.firstArticle p {
+  color: blue; }
+
+.secondArticle {
+  font-size: 20px; }
+  .secondArticle .secondParagraph {
+    text-align: center;
+    width: 500px;
+    height: 300; }
+
+.thirdDiv {
+  margin-top: 100px; }
+  .thirdDiv .thirdArticle {
+    font-style: italic; }
+    .thirdDiv .thirdArticle span {
+      font-size: 20px;
+      color: red; }
+
+.imageBatman img.center {
+  display: block;
+  margin: 0 auto;
+  width: 80em; }
